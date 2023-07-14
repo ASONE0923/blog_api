@@ -1,0 +1,487 @@
+Started GET "/" for 172.27.0.1 at 2023-07-10 08:27:21 +0000
+  
+ActiveRecord::NoDatabaseError (We could not find your database: api_development. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+  
+activerecord (7.0.6) lib/active_record/connection_adapters/mysql2_adapter.rb:47:in `rescue in new_client'
+activerecord (7.0.6) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.6) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.6) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.6) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.6) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.6) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.6) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.6) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.6) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.6) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.6) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.6) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.6) lib/rails/engine.rb:530:in `call'
+puma (5.6.6) lib/puma/configuration.rb:252:in `call'
+puma (5.6.6) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.6) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.6) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.6) lib/puma/server.rb:443:in `process_client'
+puma (5.6.6) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/favicon.ico" for 172.27.0.1 at 2023-07-10 08:27:21 +0000
+  
+ActiveRecord::NoDatabaseError (We could not find your database: api_development. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+  
+activerecord (7.0.6) lib/active_record/connection_adapters/mysql2_adapter.rb:47:in `rescue in new_client'
+activerecord (7.0.6) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.6) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.6) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.6) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.6) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.6) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.6) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.6) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.6) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.6) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.6) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.6) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.6) lib/rails/engine.rb:530:in `call'
+puma (5.6.6) lib/puma/configuration.rb:252:in `call'
+puma (5.6.6) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.6) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.6) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.6) lib/puma/server.rb:443:in `process_client'
+puma (5.6.6) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  [1m[35m (5.4ms)[0m  [1m[35mCREATE DATABASE `api_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (3.8ms)[0m  [1m[35mCREATE DATABASE `api_test` DEFAULT CHARACTER SET `utf8mb4`[0m
+Started GET "/" for 172.27.0.1 at 2023-07-10 08:28:02 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.2ms | Allocations: 281)
+Completed 200 OK in 77ms (Views: 26.6ms | ActiveRecord: 0.0ms | Allocations: 2712)
+
+
+  [1m[35m (28.3ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (15.6ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('5878493172211724820', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (25.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateBlogs (20230710101826)
+  [1m[35m (46.9ms)[0m  [1m[35mCREATE TABLE `blogs` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `title` varchar(255), `content` text, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20230710101826')[0m
+  [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2023-07-10 10:20:17.357352', '2023-07-10 10:20:17.357352')[0m
+  [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('5878493172211724820')[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('5878493172211724820', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateBlogs (20230710101826)
+  [1m[35m (21.4ms)[0m  [1m[35mDROP TABLE `blogs`[0m
+  [1m[36mActiveRecord::SchemaMigration Delete All (5.0ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20230710101826'[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT RELEASE_LOCK('5878493172211724820')[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('5878493172211724820', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateBlogs (20230710101826)
+  [1m[35m (26.4ms)[0m  [1m[35mCREATE TABLE `blogs` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `title` varchar(255), `contents` text, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20230710101826')[0m
+  [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT RELEASE_LOCK('5878493172211724820')[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/" for 172.27.0.1 at 2023-07-11 00:04:32 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (6.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 18.4ms | Allocations: 632)
+Completed 200 OK in 281ms (Views: 76.5ms | ActiveRecord: 0.0ms | Allocations: 7080)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-12 02:15:53 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (6.2ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 110ms (Views: 19.3ms | ActiveRecord: 7.2ms | Allocations: 1720)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-12 02:15:54 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms | Allocations: 695)
+
+
+Started POST "/blogs" for 172.27.0.1 at 2023-07-12 02:16:03 +0000
+Processing by BlogsController#create as HTML
+  Parameters: {"title"=>"", "contents"=>"あああああああああ", "blog"=>{"title"=>"", "contents"=>"あああああああああ"}}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/blogs_controller.rb:13:in `create'
+  [1m[36mBlog Create (0.7ms)[0m  [1m[32mINSERT INTO `blogs` (`title`, `contents`, `created_at`, `updated_at`) VALUES ('', 'あああああああああ', '2023-07-12 02:16:03.415569', '2023-07-12 02:16:03.415569')[0m
+  ↳ app/controllers/blogs_controller.rb:13:in `create'
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/blogs_controller.rb:13:in `create'
+Completed 201 Created in 31ms (ActiveRecord: 12.2ms | Allocations: 6272)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-12 02:16:03 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.3ms | Allocations: 880)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-12 02:16:03 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms | Allocations: 785)
+
+
+Started GET "/blogs/1" for 172.27.0.1 at 2023-07-12 02:16:04 +0000
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlog Load (0.7ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs` WHERE `blogs`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/blogs_controller.rb:8:in `show'
+Completed 200 OK in 16ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 1274)
+
+
+Started GET "/blogs/1" for 172.27.0.1 at 2023-07-12 02:16:05 +0000
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs` WHERE `blogs`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/blogs_controller.rb:8:in `show'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 620)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-12 02:16:07 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.5ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.5ms | Allocations: 775)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-12 02:16:07 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.3ms | Allocations: 775)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-12 02:16:09 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.4ms | Allocations: 775)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-12 02:16:09 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms | Allocations: 777)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-12 02:18:33 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.4ms | Allocations: 775)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-12 02:18:33 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms | Allocations: 775)
+
+
+Started POST "/blogs" for 172.27.0.1 at 2023-07-12 02:18:59 +0000
+Processing by BlogsController#create as HTML
+  Parameters: {"title"=>"新宝島", "contents"=>"この物語は、大東亜戦争勃発ぼっぱつ以前、昭和十五年度に執筆したものであるが、当時既に我々の南方諸島への関心は日に日に高まりつつあったので、その心持が、物語の舞台を南洋に選ばせたものであろう。又当時は対米貿易の行われている頃で、短時日に出来るだけ多くの物資をかの国から輸入しておかなければならぬ事情にあり、政府は貿易尻決済の金きんの獲得に百方苦慮していたのであるが、その事が日本少年による黄金境発見の空想となって、ここに反映したものであろう。しかしながら、この物語の主眼は寧むしろ前半の、三少年の海洋と孤島に於おける冐険生活にある。次々と襲い来る艱難かんなんを、少年の智慧ちえと工夫くふうによって一つ一つ克服して行く、百折不倒ひゃくせつふとうの精神にある。そういう点で、この物語がいくらかでも年少読者の精神を鼓舞こぶするの資たるを得ば、作者の幸さいわいこれに過ぎぬものである。", "blog"=>{"title"=>"新宝島", "contents"=>"この物語は、大東亜戦争勃発ぼっぱつ以前、昭和十五年度に執筆したものであるが、当時既に我々の南方諸島への関心は日に日に高まりつつあったので、その心持が、物語の舞台を南洋に選ばせたものであろう。又当時は対米貿易の行われている頃で、短時日に出来るだけ多くの物資をかの国から輸入しておかなければならぬ事情にあり、政府は貿易尻決済の金きんの獲得に百方苦慮していたのであるが、その事が日本少年による黄金境発見の空想となって、ここに反映したものであろう。しかしながら、この物語の主眼は寧むしろ前半の、三少年の海洋と孤島に於おける冐険生活にある。次々と襲い来る艱難かんなんを、少年の智慧ちえと工夫くふうによって一つ一つ克服して行く、百折不倒ひゃくせつふとうの精神にある。そういう点で、この物語がいくらかでも年少読者の精神を鼓舞こぶするの資たるを得ば、作者の幸さいわいこれに過ぎぬものである。"}}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/blogs_controller.rb:13:in `create'
+  [1m[36mBlog Create (1.5ms)[0m  [1m[32mINSERT INTO `blogs` (`title`, `contents`, `created_at`, `updated_at`) VALUES ('新宝島', 'この物語は、大東亜戦争勃発ぼっぱつ以前、昭和十五年度に執筆したものであるが、当時既に我々の南方諸島への関心は日に日に高まりつつあったので、その心持が、物語の舞台を南洋に選ばせたものであろう。又当時は対米貿易の行われている頃で、短時日に出来るだけ多くの物資をかの国から輸入しておかなければならぬ事情にあり、政府は貿易尻決済の金きんの獲得に百方苦慮していたのであるが、その事が日本少年による黄金境発見の空想となって、ここに反映したものであろう。しかしながら、この物語の主眼は寧むしろ前半の、三少年の海洋と孤島に於おける冐険生活にある。次々と襲い来る艱難かんなんを、少年の智慧ちえと工夫くふうによって一つ一つ克服して行く、百折不倒ひゃくせつふとうの精神にある。そういう点で、この物語がいくらかでも年少読者の精神を鼓舞こぶするの資たるを得ば、作者の幸さいわいこれに過ぎぬものである。', '2023-07-12 02:18:59.119904', '2023-07-12 02:18:59.119904')[0m
+  ↳ app/controllers/blogs_controller.rb:13:in `create'
+  [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/blogs_controller.rb:13:in `create'
+Completed 201 Created in 21ms (ActiveRecord: 4.7ms | Allocations: 1887)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-12 02:18:59 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-12 02:18:59 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/blogs/2" for 172.27.0.1 at 2023-07-12 02:19:00 +0000
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlog Load (0.7ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs` WHERE `blogs`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/blogs_controller.rb:8:in `show'
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 621)
+
+
+Started GET "/blogs/2" for 172.27.0.1 at 2023-07-12 02:19:00 +0000
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs` WHERE `blogs`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/blogs_controller.rb:8:in `show'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 620)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-12 02:19:04 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.6ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 54ms (Views: 53.0ms | ActiveRecord: 0.6ms | Allocations: 863)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-12 02:19:05 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 54ms (Views: 53.0ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/" for 172.27.0.1 at 2023-07-13 07:29:38 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.7ms | Allocations: 277)
+Completed 200 OK in 49ms (Views: 38.3ms | Allocations: 883)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-13 23:55:38 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (1.7ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 3.9ms | Allocations: 976)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-13 23:55:38 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.5ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/blogs/2" for 172.27.0.1 at 2023-07-13 23:55:39 +0000
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlog Load (0.9ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs` WHERE `blogs`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/blogs_controller.rb:8:in `show'
+Completed 200 OK in 17ms (Views: 10.1ms | ActiveRecord: 0.9ms | Allocations: 620)
+
+
+Started GET "/blogs/2" for 172.27.0.1 at 2023-07-13 23:55:39 +0000
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs` WHERE `blogs`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/blogs_controller.rb:8:in `show'
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.4ms | Allocations: 620)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-13 23:55:42 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-13 23:55:42 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/blogs/1" for 172.27.0.1 at 2023-07-13 23:55:44 +0000
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlog Load (0.7ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs` WHERE `blogs`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/blogs_controller.rb:8:in `show'
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 620)
+
+
+Started GET "/blogs/1" for 172.27.0.1 at 2023-07-13 23:55:44 +0000
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlog Load (0.5ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs` WHERE `blogs`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/blogs_controller.rb:8:in `show'
+Completed 200 OK in 6ms (Views: 0.9ms | ActiveRecord: 0.5ms | Allocations: 620)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-13 23:55:47 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-13 23:55:47 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/blogs/2" for 172.27.0.1 at 2023-07-13 23:55:47 +0000
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlog Load (0.6ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs` WHERE `blogs`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/blogs_controller.rb:8:in `show'
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 620)
+
+
+Started GET "/blogs/2" for 172.27.0.1 at 2023-07-13 23:55:48 +0000
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlog Load (0.7ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs` WHERE `blogs`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/blogs_controller.rb:8:in `show'
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 620)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-13 23:55:53 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-13 23:55:53 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-14 00:00:11 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (6.1ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 20ms (Views: 12.0ms | ActiveRecord: 6.1ms | Allocations: 863)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-14 00:00:11 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (1.2ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 1.2ms | Allocations: 863)
+
+
+Started GET "/blogs/2" for 172.27.0.1 at 2023-07-14 00:00:12 +0000
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlog Load (1.0ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs` WHERE `blogs`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/blogs_controller.rb:8:in `show'
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 1.0ms | Allocations: 620)
+
+
+Started GET "/blogs/2" for 172.27.0.1 at 2023-07-14 00:00:12 +0000
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlog Load (0.6ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs` WHERE `blogs`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/blogs_controller.rb:8:in `show'
+Completed 200 OK in 6ms (Views: 1.4ms | ActiveRecord: 0.6ms | Allocations: 620)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-14 00:00:30 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.5ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/blogs" for 172.27.0.1 at 2023-07-14 00:00:30 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT `blogs`.* FROM `blogs`[0m
+  ↳ app/controllers/blogs_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+

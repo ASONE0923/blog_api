@@ -1,5 +1,4 @@
 # blog_api
-# ブログ API
 ## 技術スタック
 - Ruby：3.2.2
 - Rails：7.0.6
@@ -23,4 +22,4 @@
 以下は、ReactアプリケーションとRails APIのインフラ構成図です。ReactアプリケーションはS3とCloudFrontを使用し、Rails APIはFargateで実行されます。
 [![Image from Gyazo](https://i.gyazo.com/2670d569b7a044561652d2264a2c8042.jpg)](https://gyazo.com/2670d569b7a044561652d2264a2c8042)
 
-# blog_api
+
